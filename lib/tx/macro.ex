@@ -72,7 +72,7 @@ defmodule Tx.Macro do
   end
 
   defp rewrite_inner(repo, body, else_) when length(body) > 1 do
-    exprs = Enum.map(Enum.slice(body, 0..-2//-1), &rewrite_bind_clause(repo, &1))
+    exprs = Enum.map(Enum.slice(body, 0..-2//1), &rewrite_bind_clause(repo, &1))
     last_expr = Enum.at(body, -1)
 
     last_expr =
