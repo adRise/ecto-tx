@@ -33,7 +33,8 @@ defmodule Tx.MixProject do
       name: "tx",
       files: ~w(lib mix.exs README.md LICENSE),
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/shouya/ecto-tx"}
+      links: %{"GitHub" => "https://github.com/adRise/ecto-tx"},
+      organization: "tubitv"
     ]
   end
 end

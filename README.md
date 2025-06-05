@@ -2,8 +2,8 @@
 
 Composable transaction as an alternative to Ecto.Multi.
 
-- Hex.pm: https://hex.pm/packages/tx
-- API references: https://hexdocs.pm/tx
+- Hex.pm: https://hex.pm/packages/tubitv/tx
+- API references: https://tubitv.hexdocs.pm/tx
 
 ## Examples
 
